@@ -45,7 +45,7 @@ Run the following commands for image and video TMO training
 
 If you find our dataset or code helpful in your research or work, please cite our paper:
 ```
-@article{cao2022adversarial,
+@article{cao2023unsupervised,
   title={Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning},
   author={Cao, Cong and Yue, Huanjing and Liu, Xin and Yang, Jingyu},
   journal={IEEE Transactions on Circuits and Systems for Video Technology},
