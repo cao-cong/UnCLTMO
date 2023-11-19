@@ -3,7 +3,7 @@
 This repository contains official implementation of Unsupervised HDR Image and Video Tone Mapping via Contrastive Learning in TCSVT 2023, by Cong Cao, Huanjing Yue, Xin Liu, and Jingyu Yang.
 
 <p align="center">
-  <img width="800" src="https://github.com/cao-cong/UnCLTMO/blob/master/images/ContrastiveLearningLoss.png">
+  <img width="800" src="https://github.com/cao-cong/UnCLTMO/blob/main/images/ContrastiveLearningLoss.png">
 </p>
 
 ## Dataset
