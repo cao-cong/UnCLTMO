@@ -6,10 +6,6 @@ This repository contains official implementation of Unsupervised HDR Image and V
   <img width="800" src="https://github.com/cao-cong/UnCLTMO/blob/master/images/ContrastiveLearningLoss.png">
 </p>
 
-## Demo Video
-
-[)<br/>
-
 ## Dataset
 
 ### Unsupervised Video Tone Mapping Dataset (UVTM Dataset)
@@ -29,7 +25,7 @@ For image tome mapping, you can download training data from [Baidu Netdisk](http
 
 ### Test
 
-You can download pretrained weights from [Baidu Netdisk](https://pan.baidu.com/s/1LJwoanmPY0AqUafNqlCX_g) (key: b6jm), then run the following command for image and video TMO testing:
+You can download pretrained weights from [Baidu Netdisk](https://pan.baidu.com/s/1LJwoanmPY0AqUafNqlCX_g) (key: b6jm), then run the following commands for image and video TMO testing:
   ```
   cd activate_trained_model
   sh run_imageTMO_test_on_HDRSurveyDataset.sh
@@ -39,7 +35,7 @@ You can download pretrained weights from [Baidu Netdisk](https://pan.baidu.com/s
 
 ### Train
 
-Run the following command for image and video TMO training
+Run the following commands for image and video TMO training
   ```
   bash run_imageTMO_train.sh
   bash run_videoTMO_train.sh
