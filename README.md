@@ -29,7 +29,7 @@ For image tome mapping, you can download training data from [Baidu Netdisk](http
 
 ### Test
 
-You can download pretrained weights from [Baidu Netdisk](https://pan.baidu.com/s/1LJwoanmPY0AqUafNqlCX_g) (key: b6jm), then run the following commands for image and video TMO testing:
+You can download pretrained weights from [Google Drive](https://drive.google.com/drive/folders/17MpuVAcQWmZI_ar5Hr0x3d6e_gN4in8K?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1LJwoanmPY0AqUafNqlCX_g) (key: b6jm), then run the following commands for image and video TMO testing:
   ```
   cd activate_trained_model
   sh run_imageTMO_test_on_HDRSurveyDataset.sh
