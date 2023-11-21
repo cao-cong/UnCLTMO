@@ -14,7 +14,7 @@ This repository contains official implementation of Unsupervised HDR Image and V
 
 ### Unsupervised Video Tone Mapping Dataset (UVTM Dataset)
 
-You can download our dataset from [Baidu Netdisk](https://pan.baidu.com/s/1X-FRzSMqYc97nlKXdJce7Q) (key: 6jl2).
+You can download our dataset from [MEGA](https://mega.nz/file/RAgWnTpY#QjIbA_Xs07EZrVIn9qEqO_1LLLOiXgJana6LWTSz-d0) or [Baidu Netdisk](https://pan.baidu.com/s/1X-FRzSMqYc97nlKXdJce7Q) (key: 6jl2).
 
 ## Code
 
@@ -25,7 +25,7 @@ You can download our dataset from [Baidu Netdisk](https://pan.baidu.com/s/1X-FRz
 
 ### Prepare Data
 
-For image tome mapping, you can download training data from [Baidu Netdisk](https://pan.baidu.com/s/10AC_UpjAtttD1EJBc_wVpg) (key: hesn), and download HDR Survey, HDRI Haven, and LVZ-HDR dataset as test data. For video tone mapping, you need to add UVTM dataset for training and testing.
+For image tome mapping, you can download training data from [MEGA](https://mega.nz/folder/5JhUGCYS#VyCDrLnNxs4-8j0_PAFqLQ) or [Baidu Netdisk](https://pan.baidu.com/s/10AC_UpjAtttD1EJBc_wVpg) (key: hesn), and download HDR Survey, HDRI Haven, and LVZ-HDR dataset as test data. For video tone mapping, you need to add UVTM dataset for training and testing.
 
 ### Test
 
