@@ -221,8 +221,8 @@ def load_inference2(im_path, f_factor_path, factor_coeff, device):
     data = np.load(f_factor_path, allow_pickle=True)[()]
     f_factor = data[os.path.splitext(os.path.basename(im_path))[0]] * 255 * factor_coeff
     rgb_img = hdr_image_util.read_hdr_image(im_path)
-    scale=1
-    #scale=4
+    #scale=1
+    scale=4
     rgb_img = cv2.resize(rgb_img, (rgb_img.shape[1]//scale,rgb_img.shape[0]//scale))
     print('-------------------')
     print(rgb_img.shape)
@@ -300,7 +300,8 @@ def run_model_on_single_image2(G_net, im_path, device, im_name, output_path, mod
     gray_im_log, diffY, diffX = data_loader_util.resize_im(gray_im_log, model_params["add_frame"], final_shape_addition)
     print(gray_im_log.shape)
     c, h, w = gray_im_log.size()
-    fake = test_big_size_image2(input_data=gray_im_log.unsqueeze(0), model=G_net, apply_crop=model_params["add_frame"], diffY=diffY, diffX=diffX, patch_h = 256, patch_w = 256, patch_h_overlap = 64, patch_w_overlap = 64)
+    fake = test_big_size_image2(input_data=gray_im_log.unsqueeze(0), model=G_net, apply_crop=model_params["add_frame"], diffY=diffY, diffX=diffX, patch_h = 256, patch_w = 256, patch_h_overlap = 64, patch_w_overlap = 64) # For 1/4 resolution, i.e. scale=4
+    #fake = test_big_size_image2(input_data=gray_im_log.unsqueeze(0), model=G_net, apply_crop=model_params["add_frame"], diffY=diffY, diffX=diffX, patch_h = 256, patch_w = 256, patch_h_overlap = 192, patch_w_overlap = 192) # For full resolution, i.e. scale=1
     #with torch.no_grad():
     #    fake = G_net(gray_im_log.unsqueeze(0), apply_crop=model_params["add_frame"], diffY=diffY, diffX=diffX)
     '''fake = torch.zeros((1,c,h,w)).cuda()
