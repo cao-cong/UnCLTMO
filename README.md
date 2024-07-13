@@ -35,7 +35,7 @@ You can download pretrained weights from [Google Drive](https://drive.google.com
   sh run_imageTMO_test_on_HDRSurveyDataset.sh
   sh run_videoTMO_test_on_UVTMTestDataset.sh
   ```
-
+For image TMO, we test the 1/4 resolution of the HDR Survey dataset and the full resolution of the preprocessed HDRI Haven and LVZ-HDR datasets. You can modify lines 224,225,303,304 in the code of 'utils/model_save_util.py' to switch these two modes.
 
 
 ### Train
