@@ -25,7 +25,7 @@ You can download our dataset from [Google Drive](https://drive.google.com/file/d
 
 ### Prepare Data
 
-For image tome mapping, you can download training data from [Google Drive](https://drive.google.com/drive/folders/1ECjaZenzVx2xDwURziPaI5QNOcEsrCjK?usp=sharing) or [MEGA](https://mega.nz/folder/5JhUGCYS#VyCDrLnNxs4-8j0_PAFqLQ) or [Baidu Netdisk](https://pan.baidu.com/s/10AC_UpjAtttD1EJBc_wVpg) (key: hesn), and download [HDR Survey](http://markfairchild.org/HDR.html), [HDRI Haven](https://zenodo.org/record/1285800#.Yd_d7mhBw2w), and [LVZ-HDR](https://www.kaggle.com/datasets/landrykezebou/lvzhdr-tone-mapping-benchmark-dataset-tmonet) dataset as test data. We also provide preprocessed test data from [Baidu Netdisk](https://pan.baidu.com/s/15ml85l4y_L1MPTmtAXYCOA) (key: xrhp). For video tone mapping, you need to add UVTM dataset for training and testing.
+For image tome mapping, you can download training data from [Google Drive](https://drive.google.com/drive/folders/1ECjaZenzVx2xDwURziPaI5QNOcEsrCjK?usp=sharing) or [MEGA](https://mega.nz/folder/5JhUGCYS#VyCDrLnNxs4-8j0_PAFqLQ) or [Baidu Netdisk](https://pan.baidu.com/s/10AC_UpjAtttD1EJBc_wVpg) (key: hesn), and download [HDR Survey](http://markfairchild.org/HDR.html), [HDRI Haven](https://zenodo.org/record/1285800#.Yd_d7mhBw2w), and [LVZ-HDR](https://www.kaggle.com/datasets/landrykezebou/lvzhdr-tone-mapping-benchmark-dataset-tmonet) dataset as test data. We also provide preprocessed test data from [Baidu Netdisk](https://pan.baidu.com/s/15ml85l4y_L1MPTmtAXYCOA) (key: xrhp), the LVZ-HDR data has been multiplied by dgain 100. For video tone mapping, you need to add UVTM dataset for training and testing.
 
 ### Test
 
